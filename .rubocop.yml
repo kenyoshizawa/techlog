@@ -6,7 +6,9 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
-require: rubocop-rails
+plugins: 
+  - rubocop-rails
+  - rubocop-performance
 
 AllCops:
   # 除外するディレクトリ（自動生成されるファイル）
