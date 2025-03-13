@@ -22,6 +22,7 @@ module Techlog
       g.skip_routes true
       g.template_engine :slim
     end
+    
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
