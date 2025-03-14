@@ -21,6 +21,13 @@ module Techlog
       g.helper false
       g.skip_routes true
       g.template_engine :slim
+      g.test_framework :rspec,
+        fixtures: false,
+        view_specs: false,
+        helper_specs: false,
+        routing_specs: false,
+        controller_specs: true,
+        request_specs: false
     end
     
     # Configuration for the application, engines, and railties goes here.
