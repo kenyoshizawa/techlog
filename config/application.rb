@@ -25,9 +25,7 @@ module Techlog
         fixtures: false,
         view_specs: false,
         helper_specs: false,
-        routing_specs: false,
-        controller_specs: true,
-        request_specs: false
+        routing_specs: false
     end
     
     # Configuration for the application, engines, and railties goes here.
